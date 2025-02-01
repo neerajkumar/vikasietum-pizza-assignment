@@ -1,0 +1,2 @@
+class VegetarianPizza < Pizza
+end
