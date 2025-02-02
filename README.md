@@ -1,24 +1,14 @@
-# README
+# Vikasietum Pizza Assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How To Use
 
-Things you may want to cover:
+Open a rails console and execute below commands
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec rails c
+order_details_1 = {:pizzas=>[{:name=>"Chicken Tikka", :size=>"large", :crust=>"Cheese Burst", :toppings=>["Chicken Tikka", "Mushroom"]}], :sides=>["Cold Drink"]}
+pf = PizzaFactory.new
+pf.place_order(order_details_1)
+order_details_2 = {:pizzas=>[{:name=>"Chicken Tikka", :size=>"large", :crust=>"Cheese Burst", :toppings=>["Chicken Tikka", "Mushroom"]}], :sides=>["Cold Drink"]}
+pf.place_order(order_details_2)
+```
