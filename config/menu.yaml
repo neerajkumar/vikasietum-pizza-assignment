@@ -1,0 +1,49 @@
+pizzas:
+  vegetarian:
+    Deluxe Veggie:
+      regular: 150
+      medium: 200
+      large: 325
+    Cheese and Corn:
+      regular: 175
+      medium: 375
+      large: 475
+    Paneer Tikka:
+      regular: 160
+      medium: 290
+      large: 340
+  non_vegetarian:
+    Non-Veg Supreme:
+      regular: 190
+      medium: 325
+      large: 425
+    Chicken Tikka:
+      regular: 210
+      medium: 370
+      large: 500
+    Pepper Barbecue Chicken:
+      regular: 220
+      medium: 380
+      large: 525
+
+crusts:
+  New Hand Tossed: 0
+  Wheat Thin Crust: 20
+  Cheese Burst: 40
+  Fresh Pan Pizza: 30
+
+toppings:
+  vegetarian:
+    Black Olive: 20
+    Capsicum: 25
+    Paneer: 35
+    Mushroom: 30
+    Fresh Tomato: 10
+  non_vegetarian:
+    Chicken Tikka: 35
+    Barbeque Chicken: 45
+    Grilled Chicken: 40
+
+sides:
+  Cold Drink: 55
+  Mousse Cake: 90
